@@ -6,10 +6,10 @@ export default function () {
     'https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true'
   )
 
-  const buttonFire = new Audio('../files/Lareira.wav')
-  const buttonRain = new Audio('./../files/Chuva.wav?raw=true')
-  const buttonForrest = new Audio('./../files/Floresta.wav?raw=true')
-  const buttonCoffee = new Audio('./../files/Cafeteria.wav?raw=true')
+  const buttonFire = new Audio('./files/Lareira.wav')
+  const buttonRain = new Audio('./files/Chuva.wav')
+  const buttonForrest = new Audio('./files/Floresta.wav')
+  const buttonCoffee = new Audio('./files/Cafeteria.wav')
 
   buttonFire.loop = true
   buttonRain.loop = true
