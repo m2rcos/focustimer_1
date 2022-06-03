@@ -13,6 +13,8 @@ export default function () {
 
   buttonFire.loop = true
   buttonRain.loop = true
+  buttonForrest.loop = true
+  buttonCoffee.loop = true
 
   function pressButtonStop() {
     buttonFire.pause()
